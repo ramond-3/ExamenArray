@@ -48,7 +48,7 @@ public class Sala {
 	}
 	
 	public static void mostrarEstadisticas(char[][] sala) {
-		int numAsientosTotal = contarEstado(sala, 'L') + contarEstado(sala, 'R') + contarEstado(sala, 'O')
+		int numAsientosTotal = contarEstado(sala, 'L') + contarEstado(sala, 'R') + contarEstado(sala, 'O');
 		
 		System.out.println("Estadisticas:");
 		System.out.println("Asientos libres: " + contarEstado(sala, 'L'));
