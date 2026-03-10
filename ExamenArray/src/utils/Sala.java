@@ -54,7 +54,7 @@ public class Sala {
 		System.out.println("Asientos libres: " + contarEstado(sala, 'L'));
 		System.out.println("Asientos reservados: " + contarEstado(sala, 'R'));
 		System.out.println("Asientos ocupados: " + contarEstado(sala, 'O'));
-		System.out.println("Porcentaje de asientos ocupados: " + (contarEstado(sala, 'O')/numAsientosTotal)*100 + "%");
+		System.out.println("Porcentaje de asientos ocupados: " + (contarEstado(sala, 'O')*100/numAsientosTotal) + "%");
 		
 		
 	}

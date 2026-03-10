@@ -23,11 +23,11 @@ public class Asientos {
 				contAsientosConsecutivos = 0;
 			}
 			if (contAsientosConsecutivos == 1) {
-				asientosReservados[0] = sala[filaDeseada][asientos];
-			}
-			if (contAsientosConsecutivos == 6) {
-				asientosReservados[1] = sala[filaDeseada][asientos];
-				break;
+			    asientosReservados[0] = asientos;  
+			    }
+			if (contAsientosConsecutivos == numeroPersonas) {  			    
+				asientosReservados[1] = asientos;
+			    break;
 			}
 		}
 		
